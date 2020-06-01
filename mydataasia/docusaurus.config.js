@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'MyData Asia',
+  tagline: 'Make it happen, make it right!',
+  url: 'https://mydataasia.org',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'https://mydata.org/wp-content/uploads/sites/5/2017/11/mydata_favicon.png',
+  organizationName: 'MyDataAsia', // Usually your GitHub org/user name.
+  projectName: 'MyDataAsia.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'MyData Asia',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'MyData Logo',
+        src: 'img/mydata.png',
       },
       links: [
         {
