@@ -94,7 +94,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/MyDataAsia/website/edit/master/mydataasia/blog/',
+            'https://github.com/MyDataAsia/website/edit/master/mydataasia/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
