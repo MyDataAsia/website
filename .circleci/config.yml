@@ -20,7 +20,7 @@ jobs:
             git config --global user.name "dixonsiu"
             echo "machine github.com login dixonsiu password $GITHUB_TOKEN" > ~/.netrc
             cd mydataasia && yarn install
-            GIT_USER=dixonsiu ORGANIZATION_NAME=MyDataAsia PROJECT_NAME=MyDataAsia.github.io yarn run publish-gh-pages
+            GIT_USER=dixonsiu ORGANIZATION_NAME=MyDataAsia PROJECT_NAME=MyDataAsia.github.io yarn deploy
 workflows:
   version: 2
   build_and_deploy:
