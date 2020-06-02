@@ -9,7 +9,7 @@ jobs:
   deploy-website:
     docker:
       # specify the version you desire here
-      - image: circleci/node:8.11.1
+      - image: circleci/node:10.15.1
 
     steps:
       - checkout
@@ -19,7 +19,7 @@ jobs:
             git config --global user.email "dixon.siu@gmail.com"
             git config --global user.name "dixonsiu"
             echo "machine github.com login dixonsiu password $GITHUB_TOKEN" > ~/.netrc
-            cd mydataasia && yarn
+            cd mydataasia && yarn install
             GIT_USER=dixonsiu ORGANIZATION_NAME=MyDataAsia PROJECT_NAME=MyDataAsia.github.io yarn run publish-gh-pages
 workflows:
   version: 2
