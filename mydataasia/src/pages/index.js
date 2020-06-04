@@ -61,7 +61,7 @@ function Home() {
     <Layout
       title={`${siteConfig.title}`}
       image="/img/mydata_s.png"
-      description="Our main motivation is to share expertise on data and privacy protection among hubs in Asia.<head />">
+      description="Our main motivation is to share expertise on data and privacy protection among hubs in Asia.">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
