@@ -59,6 +59,10 @@ module.exports = {
               label: 'Twitter',
               href: 'https://twitter.com/MydataAsia',
             },
+            {
+              label: 'Facebook',
+              href: 'https://www.facebook.com/groups/MyDataAsia/',
+            },
           ],
         },
         {
@@ -71,6 +75,10 @@ module.exports = {
             {
               label: 'GitHub',
               href: 'https://github.com/MyDataAsia/website',
+            },
+            {
+              label: 'Medium',
+              href: 'https://medium.com/@MyDataAsia',
             },
           ],
         },

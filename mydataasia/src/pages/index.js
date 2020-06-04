@@ -60,11 +60,12 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      image="/img/mydata_s.png"
+      description="Our main motivation is to share expertise on data and privacy protection among hubs in Asia.<head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className="hero__subtitle">Our main motivation is to share expertise on data and privacy protection among hubs in Asia.<br/>{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={classnames(
