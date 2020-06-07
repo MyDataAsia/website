@@ -3,4 +3,6 @@ id: about
 title: ABOUT
 ---
 
-Write something about MyData Asia Hub.  
+MyData Asia is a joint project between country hubs in Asia. 
+
+
