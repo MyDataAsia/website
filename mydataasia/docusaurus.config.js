@@ -7,6 +7,8 @@ module.exports = {
   organizationName: 'MyDataAsia', // Usually your GitHub org/user name.
   projectName: 'MyDataAsia.github.io', // Usually your repo name.
   themeConfig: {
+    disableDarkMode: true,
+    image: "/img/mydata_s.png",
     navbar: {
       title: 'MyData Asia',
       logo: {
@@ -15,12 +17,22 @@ module.exports = {
       },
       links: [
         {
+          to: 'docs/about',
+          label: 'ABOUT',
+          position: 'right',
+        },
+        {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          label: 'DOCS',
+          position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'BLOG', position: 'right'},
+        {
+          to: 'docs/contact_us',
+          label: 'CONTACT US',
+          position: 'right',
+        },
         {
           href: 'https://github.com/MyDataAsia/website',
           label: 'GitHub',
@@ -28,11 +40,17 @@ module.exports = {
         },
       ],
     },
+    algolia: {
+      apiKey: 'api-key',
+      indexName: 'index-name',
+      appId: 'app-id', // Optional, if you run the DocSearch crawler on your own
+      algoliaOptions: {}, // Optional, if provided by Algolia
+    },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'MYDATA ASIA HUB',
           items: [
             {
               label: 'Style Guide',
@@ -42,18 +60,26 @@ module.exports = {
               label: 'Second Doc',
               to: 'docs/doc2/',
             },
+            {
+              label: 'Blog',
+              to: 'blog',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/MyDataAsia/website',
+            },
           ],
         },
         {
-          title: 'Community',
+          title: 'THE COMMUNITY',
           items: [
-            {
-              label: 'MyData Global',
-              href: 'https://mydata.org',
-            },
             {
               label: 'Slack',
               href: 'https://mydataglobal.slack.com/archives/hub-asia',
+            },
+            {
+              label: 'Medium',
+              href: 'https://medium.com/@MyDataAsia',
             },
             {
               label: 'Twitter',
@@ -66,19 +92,11 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'MYDATA GLOBAL',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/MyDataAsia/website',
-            },
-            {
-              label: 'Medium',
-              href: 'https://medium.com/@MyDataAsia',
+              label: 'MyData Global',
+              href: 'https://mydata.org',
             },
           ],
         },
@@ -92,7 +110,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
+          homePageId: 'about',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:

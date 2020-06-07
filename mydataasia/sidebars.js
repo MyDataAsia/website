@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    'MyData Asia Hub': ['about', 'doc1'],
+    Misc: ['contact_us'],
   },
 };
