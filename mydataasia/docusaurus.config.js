@@ -41,10 +41,10 @@ module.exports = {
       ],
     },
     algolia: {
-      apiKey: 'api-key',
-      indexName: 'index-name',
-      appId: 'app-id', // Optional, if you run the DocSearch crawler on your own
-      algoliaOptions: {}, // Optional, if provided by Algolia
+      apiKey: '1fc83b0b0634079f0f14bc72f668ecc8',
+      indexName: 'mydataasia',
+      //appId: 'OUFRJMXD6B', // Optional, if you run the DocSearch crawler on your own
+      //algoliaOptions: {}, // Optional, if provided by Algolia
     },
     footer: {
       style: 'dark',
