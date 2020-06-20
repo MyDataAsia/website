@@ -21,12 +21,6 @@ module.exports = {
           label: 'ABOUT',
           position: 'right',
         },
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'DOCS',
-          position: 'right',
-        },
         {to: 'blog', label: 'BLOG', position: 'right'},
         {
           to: 'docs/contact_us',
