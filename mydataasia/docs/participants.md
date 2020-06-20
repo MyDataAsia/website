@@ -16,4 +16,4 @@ The followings MyData Global members are the core participants. Please feel free
 | [Ploy Chanprasert](https://twitter.com/ploychanprasert) | - |
 | [Pyrou Chung](https://www.linkedin.com/in/pyrou-chung-4558b59b/) | Open Development Mekong |
 | [Sherry Chung](https://twitter.com/SherryChung23) | MyData Taiwan |
-| [Thy Try](https://twitter.com/try_thy) | Open Development Cambodia |
+| [THY Try](https://twitter.com/try_thy) | Open Development Cambodia |
