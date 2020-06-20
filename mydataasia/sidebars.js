@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    'MyData Asia Hub': ['about', 'doc1'],
+    'MyData Asia Hub': ['about', 'participants'],
     Misc: ['contact_us'],
   },
 };

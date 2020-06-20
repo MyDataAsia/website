@@ -1,12 +1,11 @@
 ---
 id: odc-01
-title: Open Development Cambodia news #1!
-author: Thy Try
-author_title: Personium Chief Evangelist
+title: Open Development Cambodia (ODC) news #1!
+author: THY Try
+author_title: Executive Director/Editor-in-Chief of OpenDevelopment Cambodia
 author_url: https://twitter.com/try_thy
-author_image_url: https://dixonsiu.demo-jp.personium.io/personal/images/2018-04-17_23-11-05_906.jpg
-tags: [mydataasia]
+author_image_url: https://pbs.twimg.com/profile_images/476689339145940993/jvSm0LRS_400x400.jpeg
+tags: [odc, opendevelopmentcamobida, cambodia]
 ---
 
-Say something.
-Make it happen, make it right!
+Try shared what is going on in [ODC](https://opendevelopmentcambodia.net/updates/open-development-cambodia-has-published-a-new-map-layer-and-dataset-of-targeted-municipalities-for-the-implementation-of-the-innovation-for-social-accountability-in-cambodia-isac-in-2020/).
