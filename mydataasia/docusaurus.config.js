@@ -91,7 +91,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright: (CC BY 4.0) ${new Date().getFullYear()} MyData.org. Built with Docusaurus.`,
+      copyright: `Copyright: (CC BY 4.0) ${new Date().getFullYear()} MyData.org. Built with Docusaurus. Government by Luiza Peixe from the Noun Project. Government by Made x Made from the Noun Project. Bee pollination by Monika from the Noun Project.`,
     },
   },
   presets: [
