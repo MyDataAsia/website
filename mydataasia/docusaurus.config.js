@@ -49,7 +49,7 @@ module.exports = {
             {
               label: 'About',
               to: 'docs/',
-            }
+            },
             {
               label: 'Blog',
               to: 'blog',
