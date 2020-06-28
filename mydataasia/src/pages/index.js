@@ -30,7 +30,7 @@ const features = [
     imageUrl: 'img/noun_bee pollination_1251001.svg',
     description: (
       <>
-        Increaing Asian influences in MyData communities.
+        Increase Asian influences in MyData community.
       </>
     ),
   },

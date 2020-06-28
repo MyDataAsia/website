@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'MyData Asia',
+  title: 'MyData Asia Hub',
   tagline: 'Make it happen, make it right!',
   url: 'https://mydataasia.org',
   baseUrl: '/',
@@ -10,7 +10,7 @@ module.exports = {
     disableDarkMode: true,
     image: "/img/mydata_s.png",
     navbar: {
-      title: 'MyData Asia',
+      title: 'MyData Asia Hub',
       logo: {
         alt: 'MyData Logo',
         src: 'img/mydata.png',
