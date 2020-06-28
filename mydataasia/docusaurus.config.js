@@ -47,13 +47,9 @@ module.exports = {
           title: 'MYDATA ASIA HUB',
           items: [
             {
-              label: 'Style Guide',
+              label: 'About',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+            }
             {
               label: 'Blog',
               to: 'blog',
