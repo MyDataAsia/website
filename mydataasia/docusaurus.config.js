@@ -91,7 +91,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright: (CC BY 4.0) ${new Date().getFullYear()} MyData.org. Built with Docusaurus. Government by Luiza Peixe from the Noun Project. Government by Made x Made from the Noun Project. Bee pollination by Monika from the Noun Project.`,
+      copyright: `Copyright: (CC BY 4.0) ${new Date().getFullYear()} MyData.org. Built with Docusaurus. Icons made by <a href="http://www.dariusdan.com/" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>`,
     },
   },
   presets: [
