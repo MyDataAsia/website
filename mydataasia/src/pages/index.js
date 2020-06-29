@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Engaging Countries</>,
-    imageUrl: 'img/noun_Government_289436.svg',
+    imageUrl: 'img/pantheon.svg',
     description: (
       <>
         Reach out to government, citizens & companies to promote MyData principles.
@@ -18,7 +18,7 @@ const features = [
   },
   {
     title: <>International Collaborations</>,
-    imageUrl: 'img/noun_Government_1989687.svg',
+    imageUrl: 'img/global.svg',
     description: (
       <>
         Foster joint projects between countries involved with MyData movement.
@@ -27,7 +27,7 @@ const features = [
   },
   {
     title: <>Cross Pollinations</>,
-    imageUrl: 'img/noun_bee pollination_1251001.svg',
+    imageUrl: 'img/bee.svg',
     description: (
       <>
         Increase Asian influences in MyData community.
