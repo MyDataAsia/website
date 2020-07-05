@@ -1,6 +1,6 @@
 ---
 id: meeting-02
-title: MyData Asia Hub Meeting #2!
+title: "MyData Asia Hub Meeting #2"
 author: Dixon Siu
 author_title: Personium Chief Evangelist
 author_url: https://twitter.com/dixon_siu
