@@ -18,6 +18,9 @@
   --ifm-code-font-size: 95%;
 }
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -25,6 +28,14 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-.hero__title, .hero__subtitle {
-  font-family: "Roboto Slab";
+header.hero {
+  background-color: rgb(22, 193, 243) !important;
+}
+
+.navbar__title, .hero__title, .hero__subtitle, h3, .footer__title {
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar__item, p, .footer__items {
+  font-family: "Montserrat", sans-serif;
 }

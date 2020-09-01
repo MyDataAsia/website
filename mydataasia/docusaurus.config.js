@@ -55,6 +55,10 @@ module.exports = {
               to: 'blog',
             },
             {
+              label: 'MyData movement in Asia',
+              to: 'https://medium.com/mydata-movement-in-asia',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/MyDataAsia/website',
             },
